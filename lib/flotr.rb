@@ -62,7 +62,7 @@ module Flotr
       when /darwin/
         exec "open \"#{OUTPUT_FILE}\""
       when /mswin/
-        exec "start \"#{OUTPUT_FILE}\""
+        exec "start #{OUTPUT_FILE}"
       else
         puts "open #{OUTPUT_FILE} in your preferred brouser"
       end
