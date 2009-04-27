@@ -18,7 +18,17 @@
         plot = $.plot(
           $("#placeholder"),
           data,
-          { hints: {
+          { xaxis: {
+              label: "X",
+              min:   null,
+              max:   null
+            },
+            yaxis: {
+              label: "",
+              min:   -1.5,
+              max:   1.5
+            },
+            hints: {
               show: true,
               hintFormatter: function( datapoint ) {
                 hintStr = "";
@@ -29,8 +39,8 @@
                 }
                 return hintStr;
               } },
-            points: { show: true }, 
-            lines:  { show: true },
+            points: { show: false }, 
+            lines:  { show: false },
             legend: { position: 'ne' },
             grid: {
               clickable: true,
@@ -39,7 +49,7 @@
               hoverRadius: 5
             }
           } );
-
+        
         // setup event handlers
         $("#placeholder").bind( 'plotclick', function( e, pos ) {
           if( !pos.selected ) { return; }

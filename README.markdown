@@ -12,6 +12,7 @@ The following code produces the flotr.html file located in the root project fold
 
     sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
     100.times {|i| sin.data << [i, Math::sin(Math::PI / 100 * i)]}
+    
     cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
     100.times {|i| cos.data << [i, Math::cos(Math::PI / 100 * i)]}
 
@@ -22,7 +23,7 @@ The following code produces the flotr.html file located in the root project fold
     plot.width = 640
     plot << sin
     plot << cos
-    plot.plot
+    plot.show
 
 At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X and Windows. On other platforms (Linux) you have to open the generated file by hands.
 

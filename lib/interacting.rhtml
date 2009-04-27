@@ -18,7 +18,17 @@
         plot = $.plot(
           $("#placeholder"),
           data,
-          { hints: {
+          { xaxis: {
+              label: <%= "\"#{@label[:X]}\"" or 'null'%>,
+              min:   <%= @xlim[:min] or 'null'%>,
+              max:   <%= @xlim[:max] or 'null'%>
+            },
+            yaxis: {
+              label: <%= "\"#{@label[:Y]}\"" or 'null'%>,
+              min:   <%= @ylim[:min] or 'null'%>,
+              max:   <%= @ylim[:max] or 'null'%>
+            },
+            hints: {
               show: true,
               hintFormatter: function( datapoint ) {
                 hintStr = "";
@@ -39,7 +49,7 @@
               hoverRadius: 5
             }
           } );
-
+        
         // setup event handlers
         $("#placeholder").bind( 'plotclick', function( e, pos ) {
           if( !pos.selected ) { return; }

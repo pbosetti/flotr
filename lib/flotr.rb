@@ -7,6 +7,7 @@ require "rubygems"
 require "erubis"
 
 module Flotr
+  BASENAME = File.dirname(__FILE__)
   
   class Data
     OPTIONS = [:color, :label, :lines, :bars, :points, :hints, :shadowSize]
@@ -16,9 +17,9 @@ module Flotr
     def initialize(opts={})
       @data = []
       opts.each do |k,v|
-        begin
+        if OPTIONS.include? k
           self.send(k.to_s+'=', v)
-        rescue
+        else
           warn "Warning: data option '#{k}' does not exist, ignored"
         end
       end
@@ -44,13 +45,15 @@ module Flotr
     OUTPUT_FILE = "flotr.html"
     attr_accessor :series, :title, :comment, :template, :options
     attr_accessor :width, :height
+    attr_accessor :label, :xlim, :ylim
     
     def initialize(title = "Flotr Plot")
       @title = title
-      @template = "lib/interacting.rhtml"
+      @template = "#{BASENAME}/interacting.rhtml"
       @series = []
       @options = {}
       @width, @height = 600, 300
+      @label = @xlim = @ylim = {}
     end
     
     def plot
@@ -67,6 +70,8 @@ module Flotr
         puts "open #{OUTPUT_FILE} in your preferred brouser"
       end
     end
+    
+    alias show plot
     
     def <<(serie)
       if serie.instance_of? Data
