@@ -6,6 +6,7 @@ It is intended to be as portable as possible, and is thus aimed to generate HTML
 
 Usage
 =====
+The following code produces the flotr.html file located in the root project folder:
 
     require "lib/flotr"
 
@@ -24,8 +25,7 @@ Usage
     plot << cos
     plot.plot
 
-
-
+At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X only. On Windows, you have to open the generated file by hands.
 
 Thanks to
 =========
