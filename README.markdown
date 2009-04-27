@@ -15,7 +15,6 @@ The following code produces the flotr.html file located in the root project fold
     cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
     100.times {|i| cos.data << [i, Math::cos(Math::PI / 100 * i)]}
 
-
     plot = Flotr::Plot.new("Test plot")
     plot.comment = "This is a test plot made with Flotr"
     plot.options[:legend_position] = "ne"
@@ -25,7 +24,7 @@ The following code produces the flotr.html file located in the root project fold
     plot << cos
     plot.plot
 
-At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X only. On Windows, you have to open the generated file by hands.
+At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X and Windows. On other platforms (Linux) you have to open the generated file by hands.
 
 Thanks to
 =========
