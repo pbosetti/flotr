@@ -27,6 +27,11 @@ The following code produces the flotr.html file located in the root project fold
 
 At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X and Windows. On other platforms (Linux) you have to open the generated file by hands.
 
+Example
+=======
+
+![Obligatory example](http://cloud.github.com/downloads/pbosetti/flotr/plot.png)
+
 Thanks to
 =========
 The author of jflot, [Ryan Funduk](http://ryanfunduk.com/flot)
