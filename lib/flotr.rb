@@ -5,6 +5,13 @@
 # reserved.
 require "rubygems"
 require "erubis"
+require "CGI"
+
+class String
+  def escapeHTML
+    CGI.escapeHTML self
+  end
+end
 
 module Flotr
   BASENAME = File.dirname(__FILE__)
