@@ -19,7 +19,7 @@
         }
 
         var options = {
-          legend:    { position: 'ne' },
+          legend:    { show: false },
           xaxis:     {label: "X",},
           yaxis:     {label: "",},
           points: { show: true }, 
@@ -105,12 +105,11 @@
   <body>
     <h1>Test plot</h1>
 
-    <div style="float:left">
-      <div id="placeholder" style="width: 640px; height: 480px;"></div>
-    </div>
+      <div id="placeholder" style="float:left;width: 640px; height: 480px;"></div>
 
-    <div id="miniature" style="float:left;margin-left:20px;margin-top:50px">
+    <div id="miniature" style="float:left;margin-left:20px;margin-top:0px">
       <div id="overview" style="width:166px;height:100px"></div>
+      <p id="overviewLegend" style="margin-left:10px"></p>
       <p><span id="result"></span></p>
     </div>
 

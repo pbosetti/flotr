@@ -16,7 +16,7 @@ end
 
 plot = Flotr::Plot.new("Test plot")
 plot.comment = "This is a test plot made with Flotr"
-plot.options = {:legend_position => "ne", :points => 'true'}
+# plot.options = {:legend_position => "ne", :points => 'true'}
 plot.height = 480
 plot.width = 640
 plot.label = {:X => "X"}   # :Y label seems not working on Safari

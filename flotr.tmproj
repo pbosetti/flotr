@@ -10,13 +10,13 @@
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T12:04:03Z</date>
+			<date>2009-04-30T16:39:06Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test.rb</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T12:04:03Z</date>
+			<date>2009-04-30T16:57:42Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -24,13 +24,13 @@
 			<key>filename</key>
 			<string>flotr.rb</string>
 			<key>lastUsed</key>
-			<date>2009-04-29T12:25:04Z</date>
+			<date>2009-04-30T15:47:00Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-04-29T12:24:49Z</date>
+			<date>2009-04-30T16:54:19Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -54,7 +54,7 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>33</integer>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -66,23 +66,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>146</integer>
+				<integer>121</integer>
 				<key>line</key>
 				<integer>11</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>flotr.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -94,9 +80,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>29</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -108,23 +94,53 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>55</integer>
+				<integer>57</integer>
 				<key>line</key>
-				<integer>9</integer>
+				<integer>21</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>44</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>14</integer>
+				<key>line</key>
+				<integer>21</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>21</integer>
+			</dict>
+		</dict>
+		<key>lib/zooming.rhtml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>108</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>73</integer>
 		</dict>
 		<key>test.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>65</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>19</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -135,15 +151,15 @@
 	<key>openDocuments</key>
 	<array>
 		<string>lib/flotr.rb</string>
-		<string>README.markdown</string>
-		<string>flotr.rb</string>
 		<string>test.rb</string>
+		<string>lib/zooming.rhtml</string>
 		<string>lib/interacting.rhtml</string>
 		<string>flotr.gemspec</string>
+		<string>README.markdown</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{617, 81}, {670, 923}}</string>
+	<string>{{899, 102}, {670, 923}}</string>
 </dict>
 </plist>
