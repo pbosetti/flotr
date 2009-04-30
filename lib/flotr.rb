@@ -15,6 +15,8 @@ end
 
 module Flotr
   BASENAME = File.dirname(__FILE__)
+  OUTPUT_FILE = "flotr.html"
+  STD_TEMPLATE = "zooming.rhtml"
   
   class Data
     OPTIONS = [:color, :label, :lines, :bars, :points, :hints, :shadowSize]
@@ -49,14 +51,13 @@ module Flotr
   end
   
   class Plot
-    OUTPUT_FILE = "flotr.html"
     attr_accessor :series, :title, :comment, :template, :options
     attr_accessor :width, :height
     attr_accessor :label, :xlim, :ylim
     
     def initialize(title = "Flotr Plot")
       @title = title
-      @template = "#{BASENAME}/interacting.rhtml"
+      @template = "#{BASENAME}/#{STD_TEMPLATE}"
       @series = []
       @options = {}
       @width, @height = 600, 300

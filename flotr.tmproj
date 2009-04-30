@@ -10,13 +10,13 @@
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-04-29T12:25:31Z</date>
+			<date>2009-04-30T12:04:03Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test.rb</string>
 			<key>lastUsed</key>
-			<date>2009-04-29T13:31:13Z</date>
+			<date>2009-04-30T12:04:03Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -61,6 +61,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>flotr.gemspec</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>146</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>flotr.rb</key>
 		<dict>
 			<key>caret</key>
@@ -89,6 +103,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>lib/interacting.rhtml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>test.rb</key>
 		<dict>
 			<key>caret</key>
@@ -110,6 +138,8 @@
 		<string>README.markdown</string>
 		<string>flotr.rb</string>
 		<string>test.rb</string>
+		<string>lib/interacting.rhtml</string>
+		<string>flotr.gemspec</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

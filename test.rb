@@ -7,14 +7,16 @@
 require "lib/flotr"
 
 sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
-100.times {|i| sin.data << [i, Math::sin(Math::PI / 100 * i)]}
-
 cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
-100.times {|i| cos.data << [i, Math::cos(Math::PI / 100 * i)]}
+
+100.times do |i| 
+  cos.data << [i, Math::cos(Math::PI / 100 * i)]
+  sin.data << [i, Math::sin(Math::PI / 100 * i)]
+end
 
 plot = Flotr::Plot.new("Test plot")
 plot.comment = "This is a test plot made with Flotr"
-plot.options = {:legend_position => "ne", :points => 'false'}
+plot.options = {:legend_position => "ne", :points => 'true'}
 plot.height = 480
 plot.width = 640
 plot.label = {:X => "X"}   # :Y label seems not working on Safari

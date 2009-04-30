@@ -9,23 +9,26 @@ Usage
 The following code produces the flotr.html file located in the root project folder:
 
     require "lib/flotr"
-
-    sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
-    100.times {|i| sin.data << [i, Math::sin(Math::PI / 100 * i)]}
-    
-    cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
-    100.times {|i| cos.data << [i, Math::cos(Math::PI / 100 * i)]}
-
+    # Create a new plot
     plot = Flotr::Plot.new("Test plot")
-    plot.comment = "This is a test plot made with Flotr"
-    plot.options[:legend_position] = "ne"
-    plot.height = 480
-    plot.width = 640
+
+    # Create two empty series
+    sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
+    cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
+
+    # Push data into the two series
+    100.times do |i| 
+      sin.data << [i, Math::sin(Math::PI / 100 * i)]
+      cos.data << [i, Math::cos(Math::PI / 100 * i)]
+    end
+
     plot << sin
     plot << cos
     plot.show
 
 At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X and Windows. On other platforms (Linux) you have to open the generated file by hands.
+
+The default template (since v1.3) allows zooming the plot. Reload the page to reset to full view.
 
 Example
 =======
