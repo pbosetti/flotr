@@ -8,17 +8,29 @@
 	<array>
 		<dict>
 			<key>filename</key>
+			<string>flotr.gemspec</string>
+			<key>lastUsed</key>
+			<date>2009-04-29T12:25:31Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>test.rb</string>
 			<key>lastUsed</key>
-			<date>2009-04-29T10:21:37Z</date>
+			<date>2009-04-29T13:31:13Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
+			<string>flotr.rb</string>
+			<key>lastUsed</key>
+			<date>2009-04-29T12:25:04Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-04-27T21:56:50Z</date>
+			<date>2009-04-29T12:24:49Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -35,6 +47,34 @@
 	<integer>267</integer>
 	<key>metaData</key>
 	<dict>
+		<key>README.markdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>flotr.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>lib/flotr.rb</key>
 		<dict>
 			<key>caret</key>
@@ -67,11 +107,13 @@
 	<key>openDocuments</key>
 	<array>
 		<string>lib/flotr.rb</string>
+		<string>README.markdown</string>
+		<string>flotr.rb</string>
 		<string>test.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{625, 105}, {670, 923}}</string>
+	<string>{{617, 81}, {670, 923}}</string>
 </dict>
 </plist>
