@@ -4,11 +4,22 @@ Flotr (pron.: like "plotter") is a plot/chart facility to be used within Ruby.
 
 It is intended to be as portable as possible, and is thus aimed to generate HTML plots thanks to the great [flot library](http://ryanfunduk.com/flot).
 
+Installation
+============
+First, you have to be sure to have the Github repository added to your rubygems configuration. This step only has to be performed the first time you install a gem hosted on Github:
+
+    gem sources -a http://gems.github.com
+
+Next, simply install the gem:
+
+    sudo gem install pbosetti-flotr
+
 Usage
 =====
-The following code produces the `flotr.html` file located in the root project folder:
+The following code produces the `flotr.html` file located in the current folder:
 
-    require "lib/flotr"
+    require "rubygems"
+    require "flotr"
     # Create a new plot
     plot = Flotr::Plot.new("Test plot")
 
