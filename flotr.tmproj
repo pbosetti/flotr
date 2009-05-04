@@ -3,34 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>test.rb</string>
+	<string>examples/sincos.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T16:39:06Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>test.rb</string>
-			<key>lastUsed</key>
-			<date>2009-04-30T16:57:42Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-05-04T08:35:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>flotr.rb</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T15:47:00Z</date>
+			<date>2009-05-04T09:46:34Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T16:54:19Z</date>
+			<date>2009-05-04T11:25:18Z</date>
+		</dict>
+		<dict>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>examples</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>examples</string>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -42,19 +44,53 @@
 			<key>sourceDirectory</key>
 			<string>lib</string>
 		</dict>
+		<dict>
+			<key>filename</key>
+			<string>.gitignore</string>
+			<key>lastUsed</key>
+			<date>2009-05-04T09:56:44Z</date>
+		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>267</integer>
 	<key>metaData</key>
 	<dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>README.markdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>82</integer>
+				<key>line</key>
+				<integer>50</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
+		</dict>
+		<key>examples/sincos.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -66,9 +102,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>121</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>flotr.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -80,14 +130,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>29</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>74</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>50</integer>
 		</dict>
 		<key>lib/interacting.rhtml</key>
 		<dict>
@@ -124,42 +174,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>103</integer>
 				<key>line</key>
-				<integer>108</integer>
+				<integer>107</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>73</integer>
-		</dict>
-		<key>test.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>8</integer>
-				<key>line</key>
-				<integer>18</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>72</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>lib/flotr.rb</string>
-		<string>test.rb</string>
 		<string>lib/zooming.rhtml</string>
 		<string>lib/interacting.rhtml</string>
 		<string>flotr.gemspec</string>
+		<string>examples/sincos.rb</string>
+		<string>flotr.rb</string>
 		<string>README.markdown</string>
+		<string>.gitignore</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{899, 102}, {670, 923}}</string>
+	<string>{{561, 105}, {670, 923}}</string>
 </dict>
 </plist>
