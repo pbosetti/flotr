@@ -64,6 +64,22 @@ module Flotr
       @label = @xlim = @ylim = {}
     end
     
+    def std_templates
+      Dir.glob("#{BASENAME}/*.rhtml").map {|f| File.basename(f, ".rhtml")}
+    end
+    
+    def std_template=(template)
+      @template = "#{BASENAME}/#{template}.rhtml"
+    end
+    
+    def std_template
+      if File.dirname(@template) == BASENAME
+        File.basename(@template, ".rhtml")
+      else
+        nil
+      end
+    end
+    
     def plot
       eruby = Erubis::Eruby.new(File.read(@template))
       File.open(OUTPUT_FILE, 'w') do |f|

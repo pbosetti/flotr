@@ -30,6 +30,26 @@ At the moment, the Flotr::Plot.plot method automatically opens the plot within a
 
 The default template (since v1.3) allows zooming the plot. Reload the page to reset to full view.
 
+Templates
+=========
+Flotr uses templates for formatting the plots. Currently there are the following templates available:
+1. interacting: a simple layout that shows point coordinates on mouse hover
+2. zooming: a smaller overview is added on the right side of the main plot, allowing zooming of different plot areas
+
+The current template can be selected as follows (amongst those installed by default):
+
+    p = Flotr::Plot.new
+    p.std_template                  #=> "zooming"
+    p.std_templates                 #=> ["interacting" , "zooming"]
+    p.std_template = "interacting"
+    p.std_template                  #=> "interacting"
+    
+Custom templates can be selected this way:
+
+    p.template = "full/path/to/template.rhtml"
+    
+Look within lib/*.rhtml for template examples. Templates follow the Erubis syntax.
+
 Example
 =======
 
