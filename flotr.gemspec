@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-04-29}
   s.description = %q{Flotr (pron. like "plotter") is a Ruby plotter via flot.}
   s.email = %q{paolo.bosetti@me.com}
-  s.files = ["flotr.rb", "README.markdown"] + Dir.glob("lib/*") + Dir.glob("examples/*.rb")
+  s.files = ["flotr.rb", "README.markdown"] + Dir.glob("lib/**/*") + Dir.glob("examples/**/*.rb")
   s.has_rdoc = true
   s.homepage = %q{http://github.com/pbosetti/flotr}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
