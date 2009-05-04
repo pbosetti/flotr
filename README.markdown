@@ -18,12 +18,11 @@ The following code produces the flotr.html file located in the root project fold
 
     # Push data into the two series
     100.times do |i| 
-      sin.data << [i, Math::sin(Math::PI / 100 * i)]
-      cos.data << [i, Math::cos(Math::PI / 100 * i)]
+      sin << [i, Math::sin(Math::PI / 100 * i)]
+      cos << [i, Math::cos(Math::PI / 100 * i)]
     end
 
-    plot << sin
-    plot << cos
+    plot << sin << cos
     plot.show
 
 At the moment, the Flotr::Plot.plot method automatically opens the plot within a browser window under OS X and Windows. On other platforms (Linux) you have to open the generated file by hands.

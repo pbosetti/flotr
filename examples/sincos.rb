@@ -10,8 +10,8 @@ sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
 cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
 
 100.times do |i| 
-  cos.data << [i, Math::cos(Math::PI / 100 * i)]
-  sin.data << [i, Math::sin(Math::PI / 100 * i)]
+  cos << [i, Math::cos(Math::PI / 100 * i)]
+  sin << [i, Math::sin(Math::PI / 100 * i)]
 end
 
 plot = Flotr::Plot.new("Test plot")

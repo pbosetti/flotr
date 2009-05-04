@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{flotr}
   s.rubygems_version = %q{1.2.0}
-  s.has_rdoc = false
+  s.has_rdoc = true
   s.summary = %q{Flotr (pron. like "plotter") is a Ruby plotter via flot.}
 
   if s.respond_to? :specification_version then
