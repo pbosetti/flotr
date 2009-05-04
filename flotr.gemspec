@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paolo Bosetti"]
-  s.date = %q{2009-04-29}
+  s.date = %q{2009-05-04}
   s.description = %q{Flotr (pron. like "plotter") is a Ruby plotter via flot.}
   s.email = %q{paolo.bosetti@me.com}
-  s.files = ["flotr.rb", "README.markdown"] + Dir.glob("lib/**/*") + Dir.glob("examples/**/*.rb")
+  s.files = ["README.markdown", "lib/flotr.rb"] + Dir.glob("lib/**/*") + Dir.glob("examples/**/*.rb")
   s.has_rdoc = true
   s.homepage = %q{http://github.com/pbosetti/flotr}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
