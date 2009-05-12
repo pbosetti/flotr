@@ -5,7 +5,7 @@
 # reserved.
 require "rubygems"
 require "erubis"
-require "CGI"
+require "cgi"
 
 class String
   def escapeHTML
