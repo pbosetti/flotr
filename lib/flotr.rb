@@ -139,7 +139,7 @@ module Flotr
       when /mswin/
         exec "start #{OUTPUT_FILE}"
       else
-        puts "open #{OUTPUT_FILE} in your preferred brouser"
+        puts "open #{OUTPUT_FILE} in your preferred browser"
       end
     end
     

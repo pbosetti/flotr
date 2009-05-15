@@ -23,7 +23,7 @@
           xaxis:     {label: <%= "\"#{@label[:X]}\"" or 'null'%>,},
           yaxis:     {label: <%= "\"#{@label[:Y]}\"" or 'null'%>,},
           points: { show: <%= @options[:points] or 'true'%> }, 
-          lines:  { show: <%= @options[:points] or 'true'%> },
+          lines:  { show: <%= @options[:lines] or 'true'%> },
           selection: { mode: 'xy' },
           hints: {
             show: true,

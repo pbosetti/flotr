@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>README.markdown</string>
+	<string>lib/flotr.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-05-04T15:44:57Z</date>
+			<date>2009-05-12T09:46:31Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-05-04T21:22:53Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-05-12T13:47:38Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -107,33 +105,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>flotr.gemspec</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>lib/flotr.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>4</integer>
 				<key>line</key>
-				<integer>66</integer>
+				<integer>125</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>48</integer>
+			<integer>102</integer>
 		</dict>
 		<key>lib/interacting.rhtml</key>
 		<dict>
@@ -201,12 +185,11 @@
 		<string>examples/flotr.html</string>
 		<string>lib/jquery.flot.js</string>
 		<string>README.markdown</string>
-		<string>flotr.gemspec</string>
 		<string>.gitignore</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{349, 105}, {670, 923}}</string>
+	<string>{{882, 105}, {670, 923}}</string>
 </dict>
 </plist>
