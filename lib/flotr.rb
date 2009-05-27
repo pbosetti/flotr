@@ -135,9 +135,9 @@ module Flotr
       end
       case RUBY_PLATFORM
       when /darwin/
-        exec "open \"#{OUTPUT_FILE}\""
+        system "open \"#{OUTPUT_FILE}\""
       when /mswin/
-        exec "start #{OUTPUT_FILE}"
+        system "start #{OUTPUT_FILE}"
       else
         puts "open #{OUTPUT_FILE} in your preferred browser"
       end

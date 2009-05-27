@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>lib/flotr.rb</string>
+	<string>flotr.gemspec</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-05-12T09:46:31Z</date>
+			<date>2009-05-15T15:44:19Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -105,6 +107,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>flotr.gemspec</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>lib/flotr.rb</key>
 		<dict>
 			<key>caret</key>
@@ -124,30 +140,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>57</integer>
+				<integer>47</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>42</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>44</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>9</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>21</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>57</integer>
-				<key>line</key>
-				<integer>21</integer>
-			</dict>
+			<integer>11</integer>
 		</dict>
 		<key>lib/jquery.flot.js</key>
 		<dict>
@@ -168,20 +168,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>103</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>107</integer>
+				<integer>25</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>72</integer>
+			<integer>16</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>examples/sincos.rb</string>
 		<string>lib/flotr.rb</string>
+		<string>lib/zooming.rhtml</string>
+		<string>lib/interacting.rhtml</string>
+		<string>flotr.gemspec</string>
 		<string>examples/flotr.html</string>
 		<string>lib/jquery.flot.js</string>
 		<string>README.markdown</string>
