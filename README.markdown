@@ -6,13 +6,20 @@ It is intended to be as portable as possible, and is thus aimed to generate HTML
 
 Installation
 ============
-First, you have to be sure to have the Github repository added to your rubygems configuration. This step only has to be performed the first time you install a gem hosted on Github:
+Flotr gem has moved to [Gemcutter](http://gemcutter.org). In order to install you have two **alternative** choices:
 
-    gem sources -a http://gems.github.com
+1. Simply add the Gemcutter repo to your rubygem source list:
 
+        gem sources -a http://gemcutter.org
+
+2. Install gemcutter:
+
+        sudo gem install gemcutter
+        sudo gem tumble
+    
 Next, simply install the gem:
 
-    sudo gem install pbosetti-flotr
+    sudo gem install flotr
 
 Usage
 =====
