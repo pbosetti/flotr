@@ -128,11 +128,17 @@ module Flotr
   Generates the html file containing the plot and fires up a preferred
   browser window with the plot loaded.
 =end
-    def plot
+    def save
       eruby = Erubis::Eruby.new(File.read(@template))
       File.open(OUTPUT_FILE, 'w') do |f|
         f.print eruby.result(binding())
       end
+    end
+    
+    alias plot save
+    
+    def show
+      self.save
       case RUBY_PLATFORM
       when /darwin/
         system "open \"#{OUTPUT_FILE}\""
@@ -142,8 +148,6 @@ module Flotr
         puts "open #{OUTPUT_FILE} in your preferred browser"
       end
     end
-    
-    alias show plot
     
 =begin rdoc
   Adds a Data serie to the Plot. It also returns self, so multiple calls

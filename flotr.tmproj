@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>README.markdown</string>
+	<string>lib/flotr.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -16,9 +16,7 @@
 			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-10-16T12:00:42Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-10-27T09:43:10Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -77,9 +75,9 @@
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>82</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>8</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -114,14 +112,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
+				<integer>58</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>8</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>58</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
 		</dict>
 		<key>flotr.gemspec</key>
 		<dict>
@@ -149,7 +163,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>121</integer>
+			<integer>75</integer>
 		</dict>
 		<key>lib/interacting.rhtml</key>
 		<dict>
@@ -209,6 +223,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{553, 105}, {670, 923}}</string>
+	<string>{{911, 220}, {670, 923}}</string>
 </dict>
 </plist>
