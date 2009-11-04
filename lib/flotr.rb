@@ -77,7 +77,7 @@ module Flotr
   plot file Flotr::OUTPUT_FILE.
 =end  
   class Plot
-    attr_accessor :series, :title, :comment, :template, :options
+    attr_accessor :series, :title, :comment, :template, :options, :output_file
     attr_accessor :width, :height
     attr_accessor :label, :xlim, :ylim
     
@@ -92,6 +92,7 @@ module Flotr
       @options = {}
       @width, @height = 600, 300
       @label = @xlim = @ylim = {}
+      @output_file = OUTPUT_FILE
     end
     
 =begin rdoc
@@ -130,7 +131,7 @@ module Flotr
 =end
     def save
       eruby = Erubis::Eruby.new(File.read(@template))
-      File.open(OUTPUT_FILE, 'w') do |f|
+      File.open(@output_file, 'w') do |f|
         f.print eruby.result(binding())
       end
     end
@@ -141,11 +142,11 @@ module Flotr
       self.save
       case RUBY_PLATFORM
       when /darwin/
-        system "open \"#{OUTPUT_FILE}\""
+        system "open \"#{@output_file}\""
       when /mswin/
-        system "start #{OUTPUT_FILE}"
+        system "start #{@output_file}"
       else
-        puts "open #{OUTPUT_FILE} in your preferred browser"
+        puts "open #{@output_file} in your preferred browser"
       end
     end
     

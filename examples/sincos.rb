@@ -15,6 +15,7 @@ cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
 end
 
 plot = Flotr::Plot.new("Test plot")
+plot.output_file = "SinCos.html"
 plot.comment = "This is a test plot made with Flotr"
 plot.options = {:legend_position => "ne", :points => 'true'}
 plot.height = 480
