@@ -4,7 +4,9 @@
 # Copyright (c) 2009 University of Trento. All rights 
 # reserved.
 
-require "../lib/flotr"
+# require "../lib/flotr"
+require "rubygems"
+require "flotr"
 
 sin = Flotr::Data.new(:label => "Sin(x)", :color => "red")
 cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
@@ -15,7 +17,7 @@ cos = Flotr::Data.new(:label => "Cos(x)", :color => "blue")
 end
 
 plot = Flotr::Plot.new("Test plot")
-plot.output_file = "SinCos.html"
+plot.output_file = "SinCos1.html"
 plot.comment = "This is a test plot made with Flotr"
 plot.options = {:legend_position => "ne", :points => 'true'}
 plot.height = 480
@@ -24,4 +26,6 @@ plot.label = {:X => "X"}   # :Y label seems not working on Safari
 plot.ylim = {:min=> -1.5, :max => 1.5}
 plot << sin
 plot << cos
+plot.show
+plot.output_file = "SinCos2.html"
 plot.show

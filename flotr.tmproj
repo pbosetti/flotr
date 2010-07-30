@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>.gitignore</string>
+	<string>examples/sincos.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>flotr.gemspec</string>
 			<key>lastUsed</key>
-			<date>2009-11-04T11:21:39Z</date>
+			<date>2009-11-04T11:22:58Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.markdown</string>
 			<key>lastUsed</key>
-			<date>2009-11-04T11:22:01Z</date>
+			<date>2009-11-04T11:22:52Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -42,59 +42,13 @@
 			<key>filename</key>
 			<string>.gitignore</string>
 			<key>lastUsed</key>
-			<date>2009-11-04T11:22:01Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-11-04T11:22:50Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>267</integer>
 	<key>metaData</key>
 	<dict>
-		<key>.gitignore</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>README.markdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>106</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>82</integer>
-			<key>firstVisibleLine</key>
-			<integer>8</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>91</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>106</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-		</dict>
 		<key>examples/flotr.html</key>
 		<dict>
 			<key>caret</key>
@@ -163,7 +117,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>11</integer>
+			<integer>29</integer>
 		</dict>
 		<key>lib/jquery.flot.js</key>
 		<dict>
@@ -184,14 +138,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>21</integer>
 				<key>line</key>
-				<integer>25</integer>
+				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>16</integer>
+			<integer>56</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -201,10 +155,6 @@
 		<string>lib/zooming.rhtml</string>
 		<string>lib/interacting.rhtml</string>
 		<string>flotr.gemspec</string>
-		<string>examples/flotr.html</string>
-		<string>lib/jquery.flot.js</string>
-		<string>README.markdown</string>
-		<string>.gitignore</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
