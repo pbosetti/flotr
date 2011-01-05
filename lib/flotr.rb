@@ -145,6 +145,8 @@ module Flotr
         system "open \"#{@output_file}\""
       when /mswin/
         system "start #{@output_file}"
+      when /linux/
+        system "firefox #{@output_file}"
       else
         puts "open #{@output_file} in your preferred browser"
       end

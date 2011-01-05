@@ -19,7 +19,7 @@ end
 plot = Flotr::Plot.new("Test plot")
 plot.output_file = "SinCos1.html"
 plot.comment = "This is a test plot made with Flotr"
-plot.options = {:legend_position => "ne", :points => 'true'}
+plot.options = {:legend_position => "ne", :points => 'false', :lines => 'true'}
 plot.height = 480
 plot.width = 640
 plot.label = {:X => "X"}   # :Y label seems not working on Safari
